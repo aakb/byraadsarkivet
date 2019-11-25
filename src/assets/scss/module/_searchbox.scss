@@ -1,0 +1,40 @@
+.search-box {
+  margin: 3em 0 0;
+  padding: 4em 1em 1em;
+  position: relative;
+
+  @include element-theme(rgb(255,255,255), rgb(255,255,255), $gray-900);
+
+  &.is-front {
+    padding-top: 1em;
+    margin-bottom: 3em;
+    @include element-theme(rgba(51, 51, 51, 0.7), rgba(51, 51, 51, 0.7), $white);
+  }
+
+  .intro {
+    margin-bottom: 4em;
+    text-align: center;
+  }
+
+  .checkbox-slider {
+    @include media-breakpoint-up(md) {
+      padding-left: 1em;
+    }
+  }
+
+  .slider-title {
+    padding: 0;
+
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      left: 0;
+      top: -30px;
+    }
+  }
+
+  button {
+    width: 200px;
+  }
+
+
+}

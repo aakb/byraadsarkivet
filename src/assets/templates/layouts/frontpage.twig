@@ -1,0 +1,15 @@
+{% extends "../base.twig" %}
+{% block content %}
+  <img class="background-image" src="{{ "images/background.jpg" }}">
+  <div class="container">
+    <div class="search-box is-front">
+      <div id="content">
+        <div class="intro">
+          <h1>Byrådsarkivet</h1>
+          <div>Her kan du finde nye og gamle sager fra møder i byrådet, magistraten og de politiske udvalg.</div>
+        </div>
+        {% include '@components/searchbox-form.twig' %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

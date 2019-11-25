@@ -1,0 +1,212 @@
+{
+  "cases" :{
+    "1" : {
+      "id": "75-3028",
+      "title": "Anmodning fra Keld Hvalsø om orlov",
+      "summary": "Fra byrådsmedlem Keld Hvalsø (EL) om orlov",
+      "url": "http://aarhus.dk",
+      "description": "Beslutning\n\n Tilbagesendes Borgmesterens Afdeling med bemærkning, at byrådet i sit møde den 15. maj 2019 har vedtaget Magistratens foranstående indstilling af 6. maj 2019.\n\nAnmodning fra byrådsmedlem Keld Hvalsø (EL) om orlov i perioden 15. maj 2019 til og med 30. juni 2019.\n\n\n\nResumé\n\nByrådsmedlem Keld Hvalsø har anmodet om orlov fra sine kommunale hverv i perioden 15. maj 2019 til og med 30. juni 2019 begge dage inklusiv.\n\n \n\nDet indstilles, at første stedfortræder Peter Hegner Bonfils indtræder i Aarhus Byråd i orlovsperioden.\n\n \n\nOvenstående har en række nærmere beskrevne konsekvenser i relation til de faste udvalg mv., som det indstilles, at Aarhus Byråd godkender.\n\n\n\nIndstilling\n\nDet indstilles:\n\nAt 1) Keld Hvalsø bevilges orlov fra sine kommunale hverv i perioden 15. maj 2019 til 30. juni 2019 begge dage inklusiv.\n\n \n\nAt 2) byrådet godkender, at Peter Hegner Bonfils indtræder som stedfortræder i Aarhus Byråd i orlovsperioden.\n\n \n\nAt 3) byrådet godkender de midlertidige ændringer i de udvalg mv. som beskrevet i indstillingens afsnit 3.",
+      "date": "18.12.2019",
+      "decisions": {
+        "1": {
+          "date": "06-05-2019",
+          "forum": "Magistraten",
+          "url": "http://aarhus.dk",
+          "description": "Fremsendes til Aarhus Byråd med bemærkning, at Magistraten i mødet den 6. maj 2019 anbefaler, at byrådet tiltræder Borgmesterens Afdelings indstilling af 29. april 2019."
+        },
+        "2": {
+          "date": "15-05-2019",
+          "forum": "Aarhus Byråd",
+          "url": "http://aarhus.dk",
+          "description": "Tilbagesendes Borgmesterens Afdeling med bemærkning, at byrådet i sit møde den 15. maj 2019 har vedtaget Magistratens foranstående indstilling af 6. maj 2019."
+        }
+      },
+      "files": {
+        "1": {
+          "label": "Hør debatten om denne sag her",
+          "url": "http://aarhus.dk"
+        },
+        "2": {
+          "label": "Indstilling",
+          "url": "http://aarhus.dk"
+        }
+      }
+    },
+    "2" : {
+      "id": "00-5555",
+      "title": "Lorem uipsumtest",
+      "summary": "<p>Fra byrådsmedlem <strong>Keld</strong> Hvalsø (<a href=\"#\">EL</a>) om orlov</p>",
+      "url": "http://aarhus.dk",
+      "description": "<h3>Beslutning</h3>Tilbagesendes Borgmesterens Afdeling med bemærkning, at byrådet i sit møde den 15. maj 2019 har vedtaget Magistratens foranstående indstilling af 6. maj 2019.\n\nAnmodning fra byrådsmedlem Keld Hvalsø (EL) om orlov i perioden 15. maj 2019 til og med 30. juni 2019.<h3>Resumé</h3>Byrådsmedlem Keld Hvalsø har anmodet om orlov fra sine kommunale hverv i perioden 15. maj 2019 til og med 30. juni 2019 begge dage inklusiv.\n\n \n\nDet indstilles, at første stedfortræder Peter Hegner Bonfils indtræder i Aarhus Byråd i orlovsperioden.\n\n \n\nOvenstående har en række nærmere beskrevne konsekvenser i relation til de faste udvalg mv., som det indstilles, at Aarhus Byråd godkender.<h3>Indstilling</h3>Det indstilles: <ol><li>Keld Hvalsø bevilges orlov fra sine kommunale hverv i perioden 15. maj 2019 til 30. juni 2019 begge dage inklusiv.</li><li>byrådet godkender, at Peter Hegner Bonfils indtræder som stedfortræder i Aarhus Byråd i orlovsperioden.</li><li>byrådet godkender de midlertidige ændringer i de udvalg mv. som beskrevet i indstillingens afsnit 3.</li></ol>",
+      "date": "18.12.2019",
+      "decisions": {
+        "1": {
+          "date": "06-05-2019",
+          "forum": "Magistraten",
+          "url": "http://aarhus.dk",
+          "description": "Fremsendes til <stron>Aarhus Byråd</strong> med bemærkning, at Magistraten i mødet den 6. maj 2019 <p>anbefaler, at byrådet</p> tiltræder Borgmesterens Afdelings indstilling af 29. april 2019."
+        },
+        "2": {
+          "date": "15-05-2019",
+          "forum": "Aarhus Byråd",
+          "url": "http://aarhus.dk",
+          "description": "Tilbagesendes Borgmesterens Afdeling med bemærkning, at byrådet i sit møde den 15. maj 2019<strong> har vedtaget </strong> <p>Magistratens</p> foranstående indstilling af 6. maj 2019."
+        }
+      },
+      "files": {
+        "1": {
+          "label": "Hør debatten om denne sag her",
+          "url": "http://aarhus.dk"
+        },
+        "2": {
+          "label": "Indstilling",
+          "url": "http://aarhus.dk"
+        }
+      }
+    }
+  },
+  "agendas" :{
+    "1" : {
+      "id": "1234",
+      "title": "Mødereferat fra Aarhus Byråd",
+      "forum_id": "",
+      "date": "22.12.2019",
+      "time": "",
+      "place": "",
+      "summary": "",
+      "type": "",
+      "cases": {
+        "Borgmesterens afdeling": {
+          "1": {
+            "id": "75-3028",
+            "title": "Anmodning fra Keld Hvalsø om orlov",
+            "agenda_item_priority":"1",
+            "case_agenda_header": "Borgmesterens afdeling",
+            "status": "open"
+          },
+          "2": {
+            "id": "00-5555",
+            "title": "Lorem uipsumtest",
+            "agenda_item_priority":"2",
+            "case_agenda_header": "Borgmesterens afdeling",
+            "status": "open"
+          },
+          "4": {
+            "id": "75-1234",
+            "title": "Udviklingsplan for Toveshhøj",
+            "agenda_item_priority":"3",
+            "case_agenda_header": "Borgmesterens afdeling",
+            "status": "closed"
+          },
+          "5": {
+            "id": "75-2222",
+            "title": "Aftale om udviklingsplan for Gellerup og Toveshøj",
+            "agenda_item_priority":"4",
+            "case_agenda_header": "Borgmesterens afdeling",
+            "status": "open"
+          }
+        },
+        "Sociale forhold og beskæftigelse": {
+          "1": {
+            "id": "75-3333",
+            "title": "Anmodning fra Keld Hvalsø om orlov",
+            "agenda_item_priority":"5",
+            "case_agenda_header": "Sociale forhold og beskæftigelse",
+            "status": "open"
+          },
+          "2": {
+            "id": "75-4567",
+            "title": "Ny organisering: Borgernes MSB - Et samlet MSB",
+            "agenda_item_priority":"6",
+            "case_agenda_header": "Sociale forhold og beskæftigelse",
+            "status": "open"
+          }
+        },
+        "Børn og unge": {
+          "1": {
+            "id": "75-8888",
+            "title": "Undersøgelse om kontant tilskud og BPA",
+            "agenda_item_priority":"7",
+            "case_agenda_header": "Børn og unge",
+            "status": "open"
+          },
+          "2": {
+            "id": "75-8899",
+            "title": "En stor hemmelighed",
+            "agenda_item_priority":"8",
+            "case_agenda_header": "Børn og unge",
+            "status": "closed"
+          }
+        }
+      }
+    },
+    "2" : {
+      "id": "12345",
+      "title": "Mødereferat fra Aarhus Byråd",
+      "forum_id": "",
+      "date": "15.12.2019",
+      "time": "",
+      "place": "",
+      "summary": "",
+      "type": "",
+      "cases": {
+        "id": "75-3028",
+        "title": "Anmodning fra Keld Hvalsø om orlov",
+        "agenda_item_priority":"1",
+        "case_agenda_header": "Borgmesterens afdeling",
+        "status": "open"
+      }
+    },
+    "3" : {
+      "id": "123",
+      "title": "Mødereferat fra Teknik og Miljø",
+      "forum_id": "",
+      "date": "10.12.2019",
+      "time": "",
+      "place": "",
+      "summary": "",
+      "type": "",
+      "cases": {
+        "id": "",
+        "title": "",
+        "agenda_item_priority":"",
+        "case_agenda_header": "",
+        "status": "closed"
+      }
+    }
+  },
+  "committees": {
+    "Alle": "Alle",
+    "Aktuelle udvalg": "Aktuelle udvalg",
+    "Byrådet (1860-2019)": "Byrådet (1860-2019)",
+    "Børn og Unge-udvalget (2010-2019)": "Børn og Unge-udvalget (2010-2019)",
+    "Fælles udvalgsmøde (2014-2019)": "Fælles udvalgsmøde (2014-2019)",
+    "Kulturudvalget (2000-2019)": "Kulturudvalget (2000-2019)",
+    "Magistraten (1860-2019)": "Magistraten (1860-2019)",
+    "Social- og Beskæftigelsesudvalget (2014-2019)": "Social- og Beskæftigelsesudvalget (2014-2019)",
+    "Sundheds- og Omsorgsudvalget (2014-2019)": "Sundheds- og Omsorgsudvalget (2014-2019)",
+    "Teknisk Udvalg (2014-2019)": "Teknisk Udvalg (2014-2019)",
+    "Udvalget for besættelse af udvalgsposter (2014-2019)": "Udvalget for besættelse af udvalgsposter (2014-2019)",
+    "Økonomiudvalget (2014-2019)": "Økonomiudvalget (2014-2019)",
+    "Historiske udvalg ": "Historiske udvalg",
+    "Internationaliseringsudvalget (1860-1900)": "Internationaliseringsudvalget (1860-1900)",
+    "Medborgerskabsudvalget (1860-1870)": "Medborgerskabsudvalget (1860-1870)",
+    "Socialudvalget (1860-1850)": "Socialudvalget (1860-1850)",
+    "Beskæftigelsesudvalget (1860-1859)": "Beskæftigelsesudvalget (1860-1859)",
+    "Styringsudvalget (1860-2012)": "Styringsudvalget (1860-2012)",
+    "Styreforms- og strukturudvalget (1860-2011)": "Styreforms- og strukturudvalget (1860-2011)",
+    "Udvalget for fast ejendom og grønne områder (1860-2012)": "Udvalget for fast ejendom og grønne områder (1860-2012)",
+    "Udvalget for frivillighed og samskabelse (1860-2018)": "Udvalget for frivillighed og samskabelse (1860-2018)",
+    "Udvalget for kommunale driftvirksomheder (1860-2013)": "Udvalget for kommunale driftvirksomheder (1860-2013)",
+    "Udvalget for tekniske anliggender (2012-2015)": "Udvalget for tekniske anliggender (2012-2015)",
+    "Udvalget for kommunale forsyningsvirksomheder (2000-2012)": "Udvalget for kommunale forsyningsvirksomheder (2000-2012)",
+    "Udvalget for Kulturelle anliggender (1860-1890)": "Udvalget for Kulturelle anliggender (1860-1890)",
+    "Udvalget for Skoler og kultur (1860-1880)": "Udvalget for Skoler og kultur (1860-1880)",
+    "Udvalget for Sociale anliggender (1860-2013)": "Udvalget for Sociale anliggender (1860-2013)",
+    "Udvalget for sociale og beskæftigelsesmæssige anliggender samtbørn og unge (1860-2000)": "Udvalget for sociale og beskæftigelsesmæssige anliggender samtbørn og unge (1860-2000)",
+    "Udvalget for tekniske anliggender (1860-1900)": "Udvalget for tekniske anliggender (1860-1900)",
+    "Udvalget vedrørende byrådets arbejdsforhold (1860-2012)": "Udvalget vedrørende byrådets arbejdsforhold (1860-2012)"
+  }
+}
+
+

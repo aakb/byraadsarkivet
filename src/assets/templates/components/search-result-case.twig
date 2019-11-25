@@ -1,0 +1,19 @@
+<div class="list-group-item">
+  <div class="search-result-wrapper search-result" data-case-id="{{ case.id }}">
+    <div class="search-result-link row no-gutters">
+      <div class="search-result-icon-wrapper">
+        <i class="fa fa-inverse fa-2x	fa-folder"></i>
+        <div class="search-result-type">Sag</div>
+      </div>
+      <div class="search-result-content-wrapper">
+        <h2>{{ case.title }}</h2>
+        <em class="search-result-summary">{{ case.summary|striptags }}</em>
+        <p class="search-result-date">Senest behandlet {{ case.date }}</p>
+      </div>
+      <div class="search-result-more">
+        <i class="fa fa-plus ml-4"></i>
+      </div>
+    </div>
+  </div>
+  <div class="expanded"></div>
+</div>

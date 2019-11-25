@@ -1,0 +1,33 @@
+.footer {
+  font-size: .875rem;
+  color: $white;
+  background: #333;
+  padding: 3rem 0;
+  padding-bottom: 4rem;
+  position: relative;
+  align-self: flex-end;
+  width: 100%;
+
+  h4 {
+    font-size: .9375rem;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+
+  .links {
+    a {
+      display: block;
+    }
+  }
+}
+
+.permalinks {
+  border-top: 1px solid #858585;
+  padding-top: 20px;
+  color: #9f9f9f;
+  font-size: 15px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% block head %}
+    <title>{% if page_title is defined %} {{ page_title }} | {% endif %} Aarhus byrådsarkiv</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Stadsarkivet, Aarhus, Byråd">
+    <meta name="description" content="Arkiv over Aarhus byråds sager">
+  {% endblock %}
+</head>
+<body>
+
+{% block header %}
+    <nav id="navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a href="{{ "frontpage.html" }}" title="Hjem" rel="home" class="navbar-brand">
+                <img src="{{ "images/icon.svg" }}" alt="Hjem">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                {% include '@components/navigation.twig' %}
+                {% include '@components/navigation-sec.twig' %}
+            </div>
+        </div>
+    </nav>
+{% endblock %}
+<div class="page-wrapper">
+    {% block content %}{% endblock %}
+</div>
+{% block footer %}{% include '@components/footer.twig' %}{% endblock %}
+</body>
+</html>

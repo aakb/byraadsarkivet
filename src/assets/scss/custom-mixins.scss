@@ -1,0 +1,55 @@
+@mixin element-theme($full-bg, $light-bg, $text) {
+  color: $text;
+  background: $full-bg;
+
+  .bg-light {
+    color: $black;
+    background: $light-bg;
+  }
+
+  a,
+  .link,
+  .link:before {
+    color: $text;
+
+    span {
+      color: $text;
+    }
+  }
+
+  a:hover {
+    color: $text;
+  }
+
+  .underlined {
+    &:after {
+      background: $text;
+    }
+  }
+}
+
+@mixin equal-height-row() {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@mixin transition-std($target: all, $ease: ease-in-out, $duration: 200ms, $delay: 0ms) {
+  -webkit-transition: $target $ease $duration $delay;
+  -o-transition: $target $ease $duration $delay;
+  transition: $target $ease $duration $delay;
+}
+
+@mixin strip-link-styles($color:inherit) {
+  color: $color;
+  text-decoration: none;
+
+  &:focus,
+  &:active,
+  &:visited,
+  &:hover,
+  &:link{
+    color: $color;
+    text-decoration: none;
+  }
+}

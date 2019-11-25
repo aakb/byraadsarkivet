@@ -1,0 +1,15 @@
+.background-image {
+  object-fit: cover;
+  object-position: center center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page-wrapper {
+  margin-top: 5.5rem;
+  z-index: 1;
+  position: relative;
+  flex: 1 1 auto;
+  width: 100%;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title> Aarhus byrådsarkiv</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Stadsarkivet, Aarhus, Byråd">
+    <meta name="description" content="Arkiv over Aarhus byråds sager">
+  <link href="main.css" rel="stylesheet"></head>
+<body>
+
+    <nav id="navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a href="frontpage.html" title="Hjem" rel="home" class="navbar-brand">
+                <img src="images/icon.svg" alt="Hjem">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div role="navigation" aria-labelledby="block-primaernavigation-menu" id="block-primaernavigation">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a href="search-results-agendas.html?search=magistraten&type=Alle&year_from=1860&year_to=2019" class="nav-link">Magistraten</a>
+    </li>
+    <li class="nav-item">
+      <a href="search-results-agendas.html?search=byraadet&type=Alle&year_from=1860&year_to=2019" class="nav-link is-active">Byrådet</a>
+    </li>
+    <li class="nav-item">
+      <a href="static.html" class="nav-link">Udvalg</a>
+    </li>
+  </ul>
+</div>
+                <div role="navigation" aria-labelledby="block-sekundaernavigation-menu" id="block-sekundaernavigation" class="navbar-collapse navbar--secondary justify-content-end">
+  <div class="navigation--inner--secondary">
+    <ul class="navbar-nav is-secondary-navigation mr-auto">
+      <li class="nav-item--secondary-navigation ">
+        <a href="frontpage.html" class="nav-link has-border">Søg</a>
+      </li>
+    </ul>
+  </div>
+</div>
+            </div>
+        </div>
+    </nav>
+<div class="page-wrapper">
+      <img class="background-image" src="images/background.jpg">
+  <div class="container">
+    <div class="search-box is-front">
+      <div id="content">
+        <div class="intro">
+          <h1>Byrådsarkivet</h1>
+          <div>Her kan du finde nye og gamle sager fra møder i byrådet, magistraten og de politiske udvalg.</div>
+        </div>
+        <form id="search-form">
+  <div class="form-row mb-4">
+    <div class="form-group col-md-10">
+      <input class="form-control" name="search" type="text" placeholder="Skriv f.eks. Gellerupplanen, rotteplan eller letbanen">
+    </div>
+    <div class="form-group col-md-2 mb-0 checkbox-slider">
+      <label for="title_only" class="slider-title">Søg kun i titel</label>
+      <div class="form-group mb-0">
+        <span class="switch switch-lg">
+          <input name="title_only" type="checkbox" class="switch" id="title_only">
+          <label for="title_only"></label>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="form-row mb-4">
+    <div class="form-group col-md-6">
+      <label for="inputtype">Udvalg, nævn og råd</label>
+      <select name="type" class="form-control">
+                  <li></li>
+          <option value="Alle">Alle</option>
+                  <li></li>
+          <option value="Aktuelle udvalg">Aktuelle udvalg</option>
+                  <li></li>
+          <option value="Byrådet (1860-2019)">Byrådet (1860-2019)</option>
+                  <li></li>
+          <option value="Børn og Unge-udvalget (2010-2019)">Børn og Unge-udvalget (2010-2019)</option>
+                  <li></li>
+          <option value="Fælles udvalgsmøde (2014-2019)">Fælles udvalgsmøde (2014-2019)</option>
+                  <li></li>
+          <option value="Kulturudvalget (2000-2019)">Kulturudvalget (2000-2019)</option>
+                  <li></li>
+          <option value="Magistraten (1860-2019)">Magistraten (1860-2019)</option>
+                  <li></li>
+          <option value="Social- og Beskæftigelsesudvalget (2014-2019)">Social- og Beskæftigelsesudvalget (2014-2019)</option>
+                  <li></li>
+          <option value="Sundheds- og Omsorgsudvalget (2014-2019)">Sundheds- og Omsorgsudvalget (2014-2019)</option>
+                  <li></li>
+          <option value="Teknisk Udvalg (2014-2019)">Teknisk Udvalg (2014-2019)</option>
+                  <li></li>
+          <option value="Udvalget for besættelse af udvalgsposter (2014-2019)">Udvalget for besættelse af udvalgsposter (2014-2019)</option>
+                  <li></li>
+          <option value="Økonomiudvalget (2014-2019)">Økonomiudvalget (2014-2019)</option>
+                  <li></li>
+          <option value="Historiske udvalg ">Historiske udvalg</option>
+                  <li></li>
+          <option value="Internationaliseringsudvalget (1860-1900)">Internationaliseringsudvalget (1860-1900)</option>
+                  <li></li>
+          <option value="Medborgerskabsudvalget (1860-1870)">Medborgerskabsudvalget (1860-1870)</option>
+                  <li></li>
+          <option value="Socialudvalget (1860-1850)">Socialudvalget (1860-1850)</option>
+                  <li></li>
+          <option value="Beskæftigelsesudvalget (1860-1859)">Beskæftigelsesudvalget (1860-1859)</option>
+                  <li></li>
+          <option value="Styringsudvalget (1860-2012)">Styringsudvalget (1860-2012)</option>
+                  <li></li>
+          <option value="Styreforms- og strukturudvalget (1860-2011)">Styreforms- og strukturudvalget (1860-2011)</option>
+                  <li></li>
+          <option value="Udvalget for fast ejendom og grønne områder (1860-2012)">Udvalget for fast ejendom og grønne områder (1860-2012)</option>
+                  <li></li>
+          <option value="Udvalget for frivillighed og samskabelse (1860-2018)">Udvalget for frivillighed og samskabelse (1860-2018)</option>
+                  <li></li>
+          <option value="Udvalget for kommunale driftvirksomheder (1860-2013)">Udvalget for kommunale driftvirksomheder (1860-2013)</option>
+                  <li></li>
+          <option value="Udvalget for tekniske anliggender (2012-2015)">Udvalget for tekniske anliggender (2012-2015)</option>
+                  <li></li>
+          <option value="Udvalget for kommunale forsyningsvirksomheder (2000-2012)">Udvalget for kommunale forsyningsvirksomheder (2000-2012)</option>
+                  <li></li>
+          <option value="Udvalget for Kulturelle anliggender (1860-1890)">Udvalget for Kulturelle anliggender (1860-1890)</option>
+                  <li></li>
+          <option value="Udvalget for Skoler og kultur (1860-1880)">Udvalget for Skoler og kultur (1860-1880)</option>
+                  <li></li>
+          <option value="Udvalget for Sociale anliggender (1860-2013)">Udvalget for Sociale anliggender (1860-2013)</option>
+                  <li></li>
+          <option value="Udvalget for sociale og beskæftigelsesmæssige anliggender samtbørn og unge (1860-2000)">Udvalget for sociale og beskæftigelsesmæssige anliggender samtbørn og unge (1860-2000)</option>
+                  <li></li>
+          <option value="Udvalget for tekniske anliggender (1860-1900)">Udvalget for tekniske anliggender (1860-1900)</option>
+                  <li></li>
+          <option value="Udvalget vedrørende byrådets arbejdsforhold (1860-2012)">Udvalget vedrørende byrådets arbejdsforhold (1860-2012)</option>
+              </select>
+    </div>
+    <div class="form-group col-md-3">
+      <label for="inputyearfrom">Årstal</label>
+      <input name="year_from" class="form-control" type="number" value="1860">
+    </div>
+    <div class="form-group col-md-3">
+      <label for="inputyearfrom">Årstal</label>
+      <input name="year_to" class="form-control" type="number" value="2019">
+    </div>
+  </div>
+  <div class="form-row mb-4">
+    <div class="form-group mx-auto">
+      <button type="submit" class="btn btn-lg btn-primary btn-submit">Søg<i class="fa fa-search ml-4"></i></button>
+    </div>
+  </div>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h4>AAarhus Kommune</h4>
+        <p>Aarhus Kommune<br>
+          Rådhuset<br>
+          Rådhuspladsen 2<br>
+          8000 Aarhus C
+        </p>
+        <p>
+          TLF. 89 40 20 00<br>
+          CVR-nummer: 55133018
+        </p>
+        <p><img src="images/icon-white.svg" alt="Aarhus Kommune"></p>
+      </div>
+      <div class="col-md-3">
+        <h4>Aarhus stadsarkiv</h4>
+        <p>Dokk1, niveau 2.2<br>
+          Hack Kampmanns Plads 2<br>
+          8000 Aarhus C
+        </p>
+        <p>
+          TLF. 41 85 65 45<br>
+          Email: <a href="mailto:stadsarkiv@aarhus.dk">stadsarkiv@aarhus.dk</a>
+        </p>
+      </div>
+      <div class="col-md-3 links">
+        <h4>Byrådet</h4>
+        <a href="static.html">Om byrådet</a>
+        <a href="static.html">Byrådets medlemmet</a>
+        <a href="static.html">Byrådets historie</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col-md-12 permalinks">
+        <a href="#" title="Tilgængelighedserklæring for sitet">Webtilgængelighedserklæring</a>
+        <a href="http://adgangforalle.dk/">Læs højt</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  background: $gray-100;
+  font-family: $font-family-sans-serif;
+  font-size: 17px;
+  word-wrap: break-word;
+  letter-spacing: .05em;
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+h1, h2, h3, h4, h5, legend {
+  text-transform: uppercase;
+  font-family: $headings-font-family;
+  margin-bottom: $headings-margin-bottom;
+  margin-top: $headings-margin-top;
+}
+p {
+  max-width: 45rem;
+}

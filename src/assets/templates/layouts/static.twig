@@ -1,0 +1,21 @@
+{% extends "../base.twig" %}
+{% set page_title = 'Udvalg' %}
+{% block content %}
+  {% include '@components/breadcrumb.twig' %}
+  <div class="hero-container">
+    <div class="hero hero--image-right">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="title  underlined" id="content-headline">Søgeresultat</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <div id="content">
+        {% include '@components/list.twig' with { 'list_type' : 'agenda' } %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

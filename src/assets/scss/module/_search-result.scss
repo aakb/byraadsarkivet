@@ -1,0 +1,74 @@
+.search-result {
+  h2,
+  h3 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &-link {
+    @include strip-link-styles();
+    cursor: pointer;
+  }
+
+  &-icon-wrapper {
+    background: $primary;
+    color: $white;
+    flex: 0 0 75px;
+    height: 75px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    .priority,
+    .date {
+      font-size: 1.5em;
+      font-weight: bold;
+      line-height: 1em;
+    }
+
+    .month {
+      font-size: 1.3em;
+      font-weight: bold;
+      line-height: 1em;
+    }
+  }
+
+  &-content-wrapper {
+    flex: 1 1 calc(100% - 150px);
+    padding: 0 $spacer;
+
+    &.is-centered {
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+    }
+  }
+
+  &-summary {
+    font-size: .8em;
+  }
+
+  &-date {
+    font-size: .8em;
+  }
+
+  &-more {
+    flex: 0 1 75px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-type {
+    font-size: .8em;
+  }
+}
+
+mark {
+  background: $green-light;
+  padding: 0;
+}

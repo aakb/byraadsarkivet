@@ -1,0 +1,22 @@
+{% extends "../base.twig" %}
+{% set page_title = 'Agenda' %}
+{% block content %}
+  {% include '@components/breadcrumb.twig' %}
+  <div class="hero-container">
+    <div class="hero hero--image-right">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="title  underlined" id="content-headline">{{ agendas[1].date }} {{ agendas[1].title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="content">
+      {% for name,agenda_items in agendas[1].cases %}
+        <h2>{{ name }}</h2>
+        {% include '@components/list.twig' with { 'list_type' : 'agenda_item', 'agenda_items' : agenda_items, 'show_form' : false } %}
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}

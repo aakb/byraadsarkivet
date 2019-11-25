@@ -1,0 +1,14 @@
+<div class="list-group-item search-result">
+  <a href="{{ "agenda.html" }}" class="search-result-link row no-gutters">
+    <div class="search-result-icon-wrapper">
+      <div class="date">{{ agenda.date|date("d") }} </div>
+      <div class="month">{{ agenda.date|date("M") }} </div>
+    </div>
+    <div class="search-result-content-wrapper is-centered">
+      <h2>{{ agenda.date }} {{ agenda.title }}</h2>
+    </div>
+    <div class="search-result-more">
+      <i class="fa fa-plus ml-4"></i>
+    </div>
+  </a>
+</div>

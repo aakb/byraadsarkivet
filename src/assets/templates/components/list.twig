@@ -1,0 +1,20 @@
+<div class="list">
+  {% if show_form %}
+    {% include '@components/list-form.twig' %}
+  {% endif %}
+  <div class="list-group-flush js-mark-results" id="list-tab" role="tablist">
+    {% if list_type == 'case' %}
+      {% for key,case in cases %}
+        {% include '@components/search-result-case.twig' with { 'case' : case } %}
+      {% endfor %}
+    {% elseif list_type == 'agenda' %}
+      {% for key,agenda in agendas %}
+        {% include '@components/search-result-agenda.twig' with { 'agenda' : agenda } %}
+      {% endfor %}
+    {% elseif list_type == 'agenda_item' %}
+      {% for key,agenda_item in agenda_items %}
+        {% include '@components/search-result-agenda-item.twig' with { 'agenda' : agenda_item } %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
