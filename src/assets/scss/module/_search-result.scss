@@ -9,6 +9,7 @@
   &-link {
     @include strip-link-styles();
     cursor: pointer;
+    flex-wrap: nowrap;
   }
 
   &-icon-wrapper {

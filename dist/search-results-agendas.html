@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
       <title> Magistraten |  Aarhus byrådsarkiv</title>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div role="navigation" aria-labelledby="block-primaernavigation-menu" id="block-primaernavigation">
+                <div role="navigation" id="block-primaernavigation">
   <ul class="navbar-nav mr-auto">
     <li class="nav-item">
       <a href="search-results-agendas.html?search=magistraten&type=Alle&year_from=1860&year_to=2019" class="nav-link">Magistraten</a>
@@ -31,7 +31,7 @@
     </li>
   </ul>
 </div>
-                <div role="navigation" aria-labelledby="block-sekundaernavigation-menu" id="block-sekundaernavigation" class="navbar-collapse navbar--secondary justify-content-end">
+                <div role="navigation" id="block-sekundaernavigation" class="navbar-collapse navbar--secondary justify-content-end">
   <div class="navigation--inner--secondary">
     <ul class="navbar-nav is-secondary-navigation mr-auto">
       <li class="nav-item--secondary-navigation ">
@@ -71,11 +71,11 @@
   <form class="form-inline">
     <div class="form-group mr-3">
       <label for="inputyear" class="mr-2">Årstal</label>
-      <input class="form-control" type="number">
+      <input id="inputyear" class="form-control" type="number">
     </div>
     <div class="form-group">
       <label for="inputsortdate" class="mr-2">Sorter på dato</label>
-      <select class="form-control">
+      <select id="inputsortdate" class="form-control">
         <option>Nyeste først</option>
         <option>Ældste først</option>
       </select>
@@ -135,7 +135,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <h4>AAarhus Kommune</h4>
+        <h2>AAarhus Kommune</h2>
         <p>Aarhus Kommune<br>
           Rådhuset<br>
           Rådhuspladsen 2<br>
@@ -148,7 +148,7 @@
         <p><img src="images/icon-white.svg" alt="Aarhus Kommune"></p>
       </div>
       <div class="col-md-3">
-        <h4>Aarhus stadsarkiv</h4>
+        <h2>Aarhus stadsarkiv</h2>
         <p>Dokk1, niveau 2.2<br>
           Hack Kampmanns Plads 2<br>
           8000 Aarhus C
@@ -159,7 +159,7 @@
         </p>
       </div>
       <div class="col-md-3 links">
-        <h4>Byrådet</h4>
+        <h2>Byrådet</h2>
         <a href="static.html">Om byrådet</a>
         <a href="static.html">Byrådets medlemmet</a>
         <a href="static.html">Byrådets historie</a>

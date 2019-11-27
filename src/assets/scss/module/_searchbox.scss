@@ -1,15 +1,24 @@
 .search-box {
-  margin: 1em 0 0;
+  margin: 0;
   padding: 4em 1em 1em;
   position: relative;
+  font-size: .8em;
 
   @include element-theme(rgb(255,255,255), rgb(255,255,255), $gray-900);
 
+  @include media-breakpoint-up(md){
+    font-size: 1em;
+    margin: 1em 0 0;
+  }
+
   &.is-front {
-    margin: 3em 0 0;
     padding-top: 1em;
-    margin-bottom: 3em;
+
     @include element-theme(rgba(51, 51, 51, 0.7), rgba(51, 51, 51, 0.7), $white);
+
+    @include media-breakpoint-up(md){
+      margin: 3em 0;
+    }
   }
 
   .intro {
@@ -36,6 +45,4 @@
   button {
     width: 200px;
   }
-
-
 }

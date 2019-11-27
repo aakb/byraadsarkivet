@@ -89,3 +89,10 @@ $enable-rounded: false;
 $card-border-radius: 0;
 $card-border-color: none;
 $card-inner-border-radius: 0;
+
+// Override bootstrap helper classes.
+
+// The muted text needs to be darker on white background to comply with accessibility demands.
+.text-muted {
+  color: $gray-800!important;
+}

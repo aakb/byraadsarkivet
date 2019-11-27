@@ -1,22 +1,22 @@
 <form id="search-form">
   <div class="form-row mb-4">
     <div class="form-group col-md-10">
-      <input class="form-control" name="search" type="text" placeholder="Skriv f.eks. Gellerupplanen, rotteplan eller letbanen">
+      <input class="form-control" aria-label="Søg" name="search" type="text" placeholder="Skriv f.eks. Gellerupplanen, rotteplan eller letbanen">
     </div>
     <div class="form-group col-md-2 mb-0 checkbox-slider">
-      <label for="title_only" class="slider-title">Søg kun i titel</label>
+      <div for class="slider-title">Søg kun i titel</div>
       <div class="form-group mb-0">
         <span class="switch switch-lg">
           <input name="title_only" type="checkbox" class="switch" id="title_only">
-          <label for="title_only">{# Needed for slider to work #}</label>
+          <label for="title_only" class="sr-only">Kun titel</label>
         </span>
       </div>
     </div>
   </div>
   <div class="form-row mb-4">
     <div class="form-group col-md-6">
-      <label for="inputtype">Udvalg, nævn og råd</label>
-      <select name="type" class="form-control">
+      <label for="type">Udvalg, nævn og råd</label>
+      <select id="type" aria-label="Vælg Udvalg, nævn og råd" name="type" class="form-control">
         {% for option, label in committees %}
           <li>{{ user.username|e }}</li>
           <option value="{{ option }}">{{ label }}</option>
@@ -24,12 +24,12 @@
       </select>
     </div>
     <div class="form-group col-md-3">
-      <label for="inputyearfrom">Årstal</label>
-      <input name="year_from" class="form-control" type="number" value="1860">
+      <label for="year_from">Årstal</label>
+      <input id="year_from" aria-label="Fra årstal" name="year_from" class="form-control" type="number" value="1860">
     </div>
     <div class="form-group col-md-3">
-      <label for="inputyearfrom">Årstal</label>
-      <input name="year_to" class="form-control" type="number" value="2019">
+      <label for="year_to">Årstal</label>
+      <input id="year_to" aria-label="Til årstal"  name="year_to" class="form-control" type="number" value="2019">
     </div>
   </div>
   <div class="form-row mb-4">
