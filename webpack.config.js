@@ -101,37 +101,7 @@ module.exports = {
             },
           }
         ]
-        /*
-        use: [
-          {
-            loader: 'style-loader',
-            options: {
-              injectType: 'linkTag'
-            }
-          },
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].css',
-              context: './',
-              //outputPath: './styles',
-              //publicPath: './styles',
-            }
-          },
-          {
-            loader: 'css-loader',
-          },
-          {
-            loader: 'sass-loader',
-            options: {
-              sourceMap: true
-            }
-          }
-        ]
-
-         */
       },
-      // @todo Maybe define a font.
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: [

@@ -1,3 +1,4 @@
+// Import exported functions and variables from other custom js files.
 import {urlParameter} from "MyAssets/js/search";
 
 // Search for string.
@@ -9,10 +10,8 @@ export function markSearch(search_input) {
   }
 }
 
-// @todo Optionally only perform getUrLParameter and marking on search results page.
 // Get search parameter specifically.
 export let search_input = urlParameter('search');
 
 // Mark all occurrences of search input.
 markSearch(search_input);
-

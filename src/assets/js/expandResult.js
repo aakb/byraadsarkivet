@@ -1,3 +1,4 @@
+// Import exported functions and variables from other custom js files.
 import {markSearch} from "MyAssets/js/markResults";
 import {search_input} from "MyAssets/js/markResults";
 
