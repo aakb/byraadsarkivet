@@ -13,3 +13,19 @@
   flex: 1 1 auto;
   width: 100%;
 }
+
+.static-page {
+  #content {
+    background: $white;
+  }
+
+  .group-left:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    width: 200%;
+    background: $white;
+  }
+}

@@ -45,12 +45,14 @@
     </nav>
 <div class="page-wrapper">
       <div class="container">
-  <nav aria-label="breadcrumb mb-0 bg-light">
-    <ol class="breadcrumb mb-0 bg-light">
-      <li class="breadcrumb-item"><a href="javascript:history.go(-1)">Byrådsarkivet</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Søgeresultater</li>
-    </ol>
-  </nav>
+  <div class="row">
+    <nav aria-label="breadcrumb mb-0 bg-light">
+      <ol class="breadcrumb mb-0 bg-light">
+        <li class="breadcrumb-item"><a href="javascript:history.go(-1)">Byrådsarkivet</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Søgeresultater</li>
+      </ol>
+    </nav>
+  </div>
 </div>
   <div class="hero-container">
     <div class="hero hero--image-right">
@@ -64,22 +66,107 @@
   <div class="container">
     <div>
       <div id="content">
+        <div class="search-box">
+          <div id="content">
+            <form id="search-form">
+  <div class="form-row mb-4">
+    <div class="form-group col-md-10">
+      <input class="form-control" name="search" type="text" placeholder="Skriv f.eks. Gellerupplanen, rotteplan eller letbanen">
+    </div>
+    <div class="form-group col-md-2 mb-0 checkbox-slider">
+      <label for="title_only" class="slider-title">Søg kun i titel</label>
+      <div class="form-group mb-0">
+        <span class="switch switch-lg">
+          <input name="title_only" type="checkbox" class="switch" id="title_only">
+          <label for="title_only"></label>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="form-row mb-4">
+    <div class="form-group col-md-6">
+      <label for="inputtype">Udvalg, nævn og råd</label>
+      <select name="type" class="form-control">
+                  <li></li>
+          <option value="Alle">Alle</option>
+                  <li></li>
+          <option value="Aktuelle udvalg">Aktuelle udvalg</option>
+                  <li></li>
+          <option value="Byrådet (1860-2019)">Byrådet (1860-2019)</option>
+                  <li></li>
+          <option value="Børn og Unge-udvalget (2010-2019)">Børn og Unge-udvalget (2010-2019)</option>
+                  <li></li>
+          <option value="Fælles udvalgsmøde (2014-2019)">Fælles udvalgsmøde (2014-2019)</option>
+                  <li></li>
+          <option value="Kulturudvalget (2000-2019)">Kulturudvalget (2000-2019)</option>
+                  <li></li>
+          <option value="Magistraten (1860-2019)">Magistraten (1860-2019)</option>
+                  <li></li>
+          <option value="Social- og Beskæftigelsesudvalget (2014-2019)">Social- og Beskæftigelsesudvalget (2014-2019)</option>
+                  <li></li>
+          <option value="Sundheds- og Omsorgsudvalget (2014-2019)">Sundheds- og Omsorgsudvalget (2014-2019)</option>
+                  <li></li>
+          <option value="Teknisk Udvalg (2014-2019)">Teknisk Udvalg (2014-2019)</option>
+                  <li></li>
+          <option value="Udvalget for besættelse af udvalgsposter (2014-2019)">Udvalget for besættelse af udvalgsposter (2014-2019)</option>
+                  <li></li>
+          <option value="Økonomiudvalget (2014-2019)">Økonomiudvalget (2014-2019)</option>
+                  <li></li>
+          <option value="Historiske udvalg ">Historiske udvalg</option>
+                  <li></li>
+          <option value="Internationaliseringsudvalget (1860-1900)">Internationaliseringsudvalget (1860-1900)</option>
+                  <li></li>
+          <option value="Medborgerskabsudvalget (1860-1870)">Medborgerskabsudvalget (1860-1870)</option>
+                  <li></li>
+          <option value="Socialudvalget (1860-1850)">Socialudvalget (1860-1850)</option>
+                  <li></li>
+          <option value="Beskæftigelsesudvalget (1860-1859)">Beskæftigelsesudvalget (1860-1859)</option>
+                  <li></li>
+          <option value="Styringsudvalget (1860-2012)">Styringsudvalget (1860-2012)</option>
+                  <li></li>
+          <option value="Styreforms- og strukturudvalget (1860-2011)">Styreforms- og strukturudvalget (1860-2011)</option>
+                  <li></li>
+          <option value="Udvalget for fast ejendom og grønne områder (1860-2012)">Udvalget for fast ejendom og grønne områder (1860-2012)</option>
+                  <li></li>
+          <option value="Udvalget for frivillighed og samskabelse (1860-2018)">Udvalget for frivillighed og samskabelse (1860-2018)</option>
+                  <li></li>
+          <option value="Udvalget for kommunale driftvirksomheder (1860-2013)">Udvalget for kommunale driftvirksomheder (1860-2013)</option>
+                  <li></li>
+          <option value="Udvalget for tekniske anliggender (2012-2015)">Udvalget for tekniske anliggender (2012-2015)</option>
+                  <li></li>
+          <option value="Udvalget for kommunale forsyningsvirksomheder (2000-2012)">Udvalget for kommunale forsyningsvirksomheder (2000-2012)</option>
+                  <li></li>
+          <option value="Udvalget for Kulturelle anliggender (1860-1890)">Udvalget for Kulturelle anliggender (1860-1890)</option>
+                  <li></li>
+          <option value="Udvalget for Skoler og kultur (1860-1880)">Udvalget for Skoler og kultur (1860-1880)</option>
+                  <li></li>
+          <option value="Udvalget for Sociale anliggender (1860-2013)">Udvalget for Sociale anliggender (1860-2013)</option>
+                  <li></li>
+          <option value="Udvalget for sociale og beskæftigelsesmæssige anliggender samtbørn og unge (1860-2000)">Udvalget for sociale og beskæftigelsesmæssige anliggender samtbørn og unge (1860-2000)</option>
+                  <li></li>
+          <option value="Udvalget for tekniske anliggender (1860-1900)">Udvalget for tekniske anliggender (1860-1900)</option>
+                  <li></li>
+          <option value="Udvalget vedrørende byrådets arbejdsforhold (1860-2012)">Udvalget vedrørende byrådets arbejdsforhold (1860-2012)</option>
+              </select>
+    </div>
+    <div class="form-group col-md-3">
+      <label for="inputyearfrom">Årstal</label>
+      <input name="year_from" class="form-control" type="number" value="1860">
+    </div>
+    <div class="form-group col-md-3">
+      <label for="inputyearfrom">Årstal</label>
+      <input name="year_to" class="form-control" type="number" value="2019">
+    </div>
+  </div>
+  <div class="form-row mb-4">
+    <div class="form-group mx-auto">
+      <button type="submit" class="btn btn-lg btn-primary btn-submit">Søg<i class="fa fa-search ml-4"></i></button>
+    </div>
+  </div>
+</form>
+          </div>
+        </div>
         <div class="list">
-      <div class="list-form">
-  <form class="form-inline">
-    <div class="form-group mr-3">
-      <label for="inputyear" class="mr-2">Årstal</label>
-      <input class="form-control" type="number">
-    </div>
-    <div class="form-group">
-      <label for="inputsortdate" class="mr-2">Sorter på dato</label>
-      <select class="form-control">
-        <option>Nyeste først</option>
-        <option>Ældste først</option>
-      </select>
-    </div>
-  </form>
-</div>
     <div class="list-group-flush js-mark-results" id="list-tab" role="tablist">
                   <div class="list-group-item">
   <div class="search-result-wrapper search-result" data-case-id="75-3028">
@@ -98,7 +185,9 @@
       </div>
     </div>
   </div>
-  <div class="expanded"></div>
+  <div class="expanded" data-case-id="75-3028">
+    <div class="case-link-share">Del denne sag</div>
+  </div>
 </div>
               <div class="list-group-item">
   <div class="search-result-wrapper search-result" data-case-id="00-5555">
@@ -117,7 +206,9 @@
       </div>
     </div>
   </div>
-  <div class="expanded"></div>
+  <div class="expanded" data-case-id="00-5555">
+    <div class="case-link-share">Del denne sag</div>
+  </div>
 </div>
             </div>
 </div>

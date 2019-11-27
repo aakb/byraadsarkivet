@@ -14,7 +14,12 @@
   <div class="container">
     <div>
       <div id="content">
-        {% include '@components/list.twig' with { 'list_type' : 'case', 'show_form' : true } %}
+        <div class="search-box">
+          <div id="content">
+            {% include '@components/searchbox-form.twig' %}
+          </div>
+        </div>
+        {% include '@components/list.twig' with { 'list_type' : 'case', 'show_form' : false } %}
       </div>
     </div>
   </div>

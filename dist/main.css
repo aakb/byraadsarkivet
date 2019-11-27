@@ -11243,6 +11243,18 @@ readers do not read off random characters that represent icons */
   flex: 1 1 auto;
   width: 100%; }
 
+.static-page #content {
+  background: #ffffff; }
+
+.static-page .group-left:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 200%;
+  background: #ffffff; }
+
 body {
   background: #f6f6f6;
   font-family: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -11265,7 +11277,7 @@ p {
   max-width: 45rem; }
 
 .search-box {
-  margin: 3em 0 0;
+  margin: 1em 0 0;
   padding: 4em 1em 1em;
   position: relative;
   color: #333333;
@@ -11286,6 +11298,7 @@ p {
   .search-box .underlined:after {
     background: #333333; }
   .search-box.is-front {
+    margin: 3em 0 0;
     padding-top: 1em;
     margin-bottom: 3em;
     color: #ffffff;
@@ -11643,4 +11656,26 @@ mark {
     background: #3661d8; }
   .underlined.is-white:after {
     background: #ffffff; }
+
+.case-link {
+  background: #eaeaea;
+  display: none;
+  margin: 1rem 0;
+  padding: 1rem; }
+  .case-link.is-visible {
+    display: block; }
+  .case-link-inner {
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    margin: 1rem;
+    padding: 1rem; }
+  .case-link-share {
+    color: #3661d8;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+    text-align: right; }
+    .case-link-share.is-visible {
+      display: block; }
 

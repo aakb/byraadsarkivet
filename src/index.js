@@ -13,10 +13,11 @@ import IconWhite from './assets/images/icon-white.svg';
 import FontAwesome from '@fortawesome/fontawesome-free/js/all.js';
 
 // Custom JS
-import test from './assets/js/test.js';
+import test from './assets/js/siteimprove.js';
 import search from './assets/js/search.js';
 import markResults from './assets/js/markResults.js';
 import expandResult from './assets/js/expandResult.js';
+import caseLinkShare from './assets/js/caseLinkShare.js';
 
 // Example data
 //import './assets/example_data/cases.json';

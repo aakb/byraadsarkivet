@@ -1,0 +1,30 @@
+.case-link {
+  background: $gray-200;
+  display: none;
+  margin: $spacer 0;
+  padding: $spacer;
+
+  &.is-visible {
+    display:block;
+  }
+
+  &-inner {
+    background: $white;
+    border: 1px solid $gray-400;
+    margin: $spacer;
+    padding: $spacer;
+  }
+
+  &-share {
+    color: $link-color;
+    cursor: pointer;
+    display: none;
+    margin-bottom: $spacer / 2;
+    text-decoration: underline;
+    text-align: right;
+
+    &.is-visible {
+      display:block;
+    }
+  }
+}

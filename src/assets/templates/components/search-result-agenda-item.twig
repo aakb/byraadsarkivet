@@ -1,13 +1,18 @@
-<div class="list-group-item search-result">
-  <a href="{{ "agenda.html" }}" class="search-result-link row">
-    <div class="search-result-icon-wrapper">
-      <div class="priority">{{ agenda_item.agenda_item_priority }}</div>
+<div class="list-group-item">
+  <div class="search-result-wrapper search-result" data-case-id="{{ agenda_item.id }}">
+    <div class="search-result-link row no-gutters">
+      <div class="search-result-icon-wrapper">
+        <div class="priority">{{ agenda_item.agenda_item_priority }}</div>
+      </div>
+      <div class="search-result-content-wrapper is-centered">
+        <h2>{{ agenda_item.title }}</h2>
+      </div>
+      <div class="search-result-more">
+        <i class="fa fa-plus ml-4"></i>
+      </div>
     </div>
-    <div class="search-result-content-wrapper is-centered">
-      <h2>{{ agenda_item.title }}</h2>
-    </div>
-    <div class="search-result-more">
-      <i class="fa fa-plus ml-4"></i>
-    </div>
-  </a>
+  </div>
+  <div class="expanded" data-case-id="{{ agenda_item.id }}">
+    <div class="case-link-share">Del denne sag</div>
+  </div>
 </div>
