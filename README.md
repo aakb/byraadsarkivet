@@ -33,6 +33,7 @@ npm run build
 
 ## File structure
 * All code is compiled into /dist folder.
+* All work code is located in src/assets.
 * webpack.config.js is used to determine file structure. See more: 
   [https://webpack.js.org]
 * Twig layout files are compiled into individual .html files
@@ -43,5 +44,7 @@ npm run build
   file. All bootstrap mixins/variables and functionality is available.
   [https://getbootstrap.com/]
 * Bootstrap scss variables may be overridden in bootstrap-custom.scss
-* All scss files are imported into a single styles.scss in assets
-  folder. This file is compiled by webpack.
+* All javascript from libraries as well as custom js is imported into
+  index.js in assets folder. This file is compiled by webpack.
+* All scss files are imported into styles.scss in assets folder. This
+  file is compiled by webpack.
