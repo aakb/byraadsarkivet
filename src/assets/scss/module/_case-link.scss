@@ -16,6 +16,10 @@
     overflow: hidden;
   }
 
+  .btn {
+    cursor: pointer;
+  }
+
   &-share {
     color: $link-color;
     cursor: pointer;

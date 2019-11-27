@@ -11694,6 +11694,8 @@ mark {
     margin: 1rem;
     padding: 1rem;
     overflow: hidden; }
+  .case-link .btn {
+    cursor: pointer; }
   .case-link-share {
     color: #3661d8;
     cursor: pointer;
