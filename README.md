@@ -36,12 +36,12 @@ npm run build
 * webpack.config.js is used to determine file structure. See more: 
   [https://webpack.js.org]
 * Twig layout files are compiled into individual .html files
-* Exmaple data holds a single .json file with example data. This is used
+* Example data holds a single .json file with example data. This is used
   for ajax but also included as data context during twig rendering and
   used in templates.
 * Custom scss and entire bootstrap scss is compiled into single main.css
-  file. All bootstrap functions/variables and functionality is
-  available. [https://getbootstrap.com/]
+  file. All bootstrap mixins/variables and functionality is available.
+  [https://getbootstrap.com/]
 * Bootstrap scss variables may be overridden in bootstrap-custom.scss
 * All scss files are imported into a single styles.scss in assets
-  folder. This file is being rendered by webpack.
+  folder. This file is compiled by webpack.
