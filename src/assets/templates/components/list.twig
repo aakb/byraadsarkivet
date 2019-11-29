@@ -16,5 +16,8 @@
         {% include '@components/search-result-agenda-item.twig' with { 'agenda' : agenda_item } %}
       {% endfor %}
     {% endif %}
+    {% if list_type == 'case' or list_type == 'agenda' %}
+      {% include '@components/pager.twig' %}
+    {% endif %}
   </div>
 </div>

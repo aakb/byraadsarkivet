@@ -6822,12 +6822,6 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 600;
   font-style: normal; }
 
-@font-face {
-  font-family: 'BigShoulders';
-  src: url(./BigShouldersText-Regular.ttf) format("truetype");
-  font-weight: 600;
-  font-style: normal; }
-
 /*!
  * Font Awesome Free 5.11.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -11452,8 +11446,6 @@ mark {
   .footer a {
     color: #ffffff;
     text-decoration: underline; }
-  .footer .links a {
-    display: block; }
 
 .permalinks {
   border-top: 1px solid #858585;
