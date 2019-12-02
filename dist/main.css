@@ -11446,6 +11446,8 @@ mark {
   .footer a {
     color: #ffffff;
     text-decoration: underline; }
+  .footer img {
+    height: 60px; }
 
 .permalinks {
   border-top: 1px solid #858585;

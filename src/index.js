@@ -9,6 +9,7 @@ import './styles.scss';
 // Images and fonts.
 import Background from './assets/images/background.jpg';
 import Icon from './assets/images/icon.svg';
+import St_Icon from './assets/images/stadsarkivet-icon-white.svg';
 import IconWhite from './assets/images/icon-white.svg';
 
 // Custom JS
